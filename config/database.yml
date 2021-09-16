@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: active_admin_db1
+  username: postgres
+  password: 12345678
+  host: localhost

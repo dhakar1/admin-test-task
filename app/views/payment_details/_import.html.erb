@@ -1,0 +1,4 @@
+<%= semantic_form_for :payment_details, :url => import_data_admin_payment_details_path, html: { multipart: true } do |f| %>
+    <%= file_field_tag :file %>
+    <%= f.button :submit %>
+<% end %>

@@ -1,0 +1,2 @@
+class FirstPaymentDesired < PaymentDetail
+end

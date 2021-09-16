@@ -1,0 +1,35 @@
+<span><%= collection.pluck(:amount).sum%></span>
+<script type="text/javascript">
+	
+    $(document).ready(function() {
+        $("#get_lower_first").insertAfter(".index_table");
+        $("#get_lower_second").insertAfter(".index_table");
+    });
+
+</script>
+<style type="text/css">
+	#get_lower_first {
+    text-align: right;
+    margin-right: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+	}
+	#get_lower_first span{
+		padding: 5px;
+		background: #ddd;
+		border-radius: 2px;
+		margin-right: 7%; 
+	}
+		#get_lower_second {
+    text-align: right;
+    margin-right: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+	}
+	#get_lower_second span{
+		padding: 5px;
+		background: #ddd;
+		border-radius: 2px;
+		margin-right: 11%; 
+	}
+</style>
